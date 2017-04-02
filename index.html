@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AstroRobotics</title>
+<meta charset="utf-8">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="js/main.js">
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <button class="scrollToTop">keyboard_arrow_up</button>
+  <section class="first">
+    <header>
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="burg" data-toggle="collapse" data-target="#collapse">
+              <div class="bar"></div>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="collapse">
+    				<ul class="nav navbar-nav navbar-right">
+              <li><a href="#team">TEAM</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#mars">MARS 2020</a></li>
+    					<li><a href="#next">NEXT LAUNCH</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+    				</ul>
+        	</div>
+        </nav>
+      <img src="img/logo.png" alt="logo">
+    </header>
+    <div class="container">
+      <h1>
+        One<br>
+        <span>step</span><br>
+        closer
+      </h1>
+    </div>
+  </section>
+  <section class="team" id="team">
+    <div class="container">
+        <h1>TEAM</h1>
+      <div class="col-md-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="container">
+      <div class="col-md-4 first-img">
+        <h2>EQUIPMENT</h2>
+      </div>
+      <div class="col-md-4 second-img">
+        <h2>SOFTWARE</h2>
+      </div>
+      <div class="col-md-4 third-img">
+        <h2>EXPIERIENCE</h2>
+      </div>
+    </div>
+  </section>
+  <section class="mars" id="mars">
+    <div class="container">
+      <div class="col-md-8">
+        <h1>MARS 2020</h1>
+      </div>
+      <div class="col-md-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </section>
+  <section class="next" id="next">
+    <div class="container">
+      <h1>NEXT LAUNCH</h1>
+      <div class="col-md-8">
+        <h3>Next project will be launched in:</h3>
+        <p>
+          <span class="val" id="days"></span>DAYS
+          <span class="val" id="hour">14</span>HOURS
+          <span class="val" id="minute">15</span>MINUTES
+          <span class="val" id="sec">2</span>SECONDS
+        </p>
+      </div>
+      <div class="col-md-4">
+
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="col-md-6">
+        <form>
+          <label>Name:<br>
+            <input type="text" class="form_area" id="name" placeholder="Your name...">
+          </label>
+          <label>Email:<br>
+            <input type="text" class="form_area" id="email" placeholder="Your email...">
+          </label>
+          <label>Message:<br>
+            <textarea placeholder="Your Message..." id="message" class="form_area">
+            </textarea>
+          </label>
+          <input type="submit" class="disactiveted" id="submit" value="SEND">
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h1>Visit us!</h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2581.0237547943843!2d30.935662716004643!3d49.69152547937792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d385837d420221%3A0x1e26e020c46c73c9!2z0LLRg9C70LjRhtGPINCb0LXQvdGW0L3QsCwgMTk0LCBSb3NhdmEsIEt5aXZzJ2thIG9ibGFzdCwgVWtyYWluYSwgMDg4MzU!5e0!3m2!1spl!2spl!4v1491149210512" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <a href="http://www.github.com/ppasciak">Paweł Paściak</a> 2017 | Photos from <a href="http://pexels.com">PEXELS</a>
+    </div>
+  </footer>
+</body>
+
+</html>
