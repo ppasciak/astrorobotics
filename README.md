@@ -12,4 +12,4 @@ W projekcie wykorzystane zostały:
 - GIT
 
 
-LIVE DEMO: 
+LIVE DEMO: https://ppasciak.github.io/astrorobotics/
